@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #f5f9ff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  background: transparent;
+  position: absolute;
+  width: 90vw;
+  z-index: 10;
+}
+.logo {
+  font-weight: 700;
+  color: white;
+  font-size: 1.4em;
+}
+.navbar nav a {
+  color: white;
+  margin-left: 36px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+.navbar nav a.active {
+  border-bottom: 2px solid white;
+}
+.navbar .btn-primary {
+  background: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+.main-themes {
+  display: flex;
+  padding: 90px;
+  justify-content: center;
+  gap: 32px;
+  margin-top: -80px;
+}
+.main-themes-box {
+  background: white;
+  padding: 36px 32px;
+  border-radius: 16px;
+  box-shadow: 19px 3px 12px rgba(19,79,150,0.08);
+  min-width: 280px;
+  text-align: center;
+}
+.main-themes-box .icon {
+  font-size: 2em;
+  margin-bottom: 12px;
+}
